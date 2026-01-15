@@ -1,0 +1,1 @@
+These are the files of the code of exp 1 of web programming lab. The index.html file contains the main exp1 code of the portfolio website. The other two files have the codes of the lab recitation questions.
