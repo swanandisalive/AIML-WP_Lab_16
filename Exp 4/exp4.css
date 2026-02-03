@@ -1,0 +1,100 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Typography [cite: 37] */
+    line-height: 1.6;
+    color: #333; /* Text color [cite: 31] */
+    background-color: #f4f4f9; /* Background color [cite: 32] */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Layout property [cite: 49] */
+    margin: auto; /* Alignment [cite: 57] */
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    background: #2c3e50;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #3498db 3px solid;
+    text-align: center; /* Alignment [cite: 40] */
+}
+
+/* Section Styling */
+section {
+    padding: 20px; /* Spacing inside [cite: 44] */
+    margin: 20px 0; /* Spacing outside [cite: 43] */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Form Styling */
+form {
+    display: flex; /* Layout property [cite: 48] */
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
